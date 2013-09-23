@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 class program{
 
@@ -13,5 +13,10 @@ class program{
 		}
 
 		isPrime.printPrime(10);
+
+		int[][] w = isPrime.pascalTriangle(5);
+		for (int[] arr : w ) {
+			System.out.println(Arrays.toString(arr));
+		}
 	}
 }
