@@ -11,5 +11,7 @@ class program{
 				System.out.println(i);
 			}
 		}
+
+		isPrime.printPrime(10);
 	}
 }
